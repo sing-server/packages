@@ -1,0 +1,33 @@
+{
+  "Regions": {
+    "901": {
+      "RegionID": 901,
+      "RegionCode": "google",
+      "RegionName": "Hongkong",
+      "Nodes": [
+        {
+          "Name": "901a",
+          "RegionID": 901,
+          "DERPPort": 9999,
+          "HostName": "derp.singwx.cn",
+          "IPv4": "34.96.197.72",
+          "InsecureForTests": true
+        }
+      ]
+    },
+    "902": {
+      "RegionID": 902,
+      "RegionCode": "sing",
+      "RegionName": "Home",
+      "Nodes": [
+        {
+          "Name": "902a",
+          "RegionID": 902,
+          "DERPPort": 12345,
+          "HostName": "www.singwx.cn",
+          "InsecureForTests": true
+        }
+      ]
+    }
+  }
+}
